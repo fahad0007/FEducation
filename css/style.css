@@ -1,0 +1,226 @@
+/* Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+/* logo */
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    /* width: 33%; */
+    width: 47%;
+    border: 2px solid white;
+    border-radius: 27px;
+
+}
+/* Navbar */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    
+}
+.nav-list{
+    /* background-color: black; */
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+list-style: none;
+padding: 19px 21px;
+
+}
+.nav-list li a{
+text-decoration: none;
+color: white;
+font-size: 17px;
+font-family: 'Roboto Slab', serif;
+}
+.nav-list li a:hover{
+    color: lightgray;
+}
+.rightnav{
+    /* display: flex;
+    align-items: center;
+    justify-content: right; */
+    width: 30%;
+    text-align: right;
+    padding: 0px 23px;
+}
+#search{
+    padding: 3px;
+    border: 2px solid gray;
+    border-radius: 7px;
+}
+.background{
+background: rgba(0, 0, 0, 0.9) url('../img/bg.jpg') no-repeat center center/cover;
+background-size: cover;
+background-blend-mode: darken;
+}
+
+/* section */
+.firstSection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 71%;
+    margin: auto;
+    height: 81%;
+}
+.box-main img{
+    width: 291px;
+}
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+.secondHalf{
+width: 43%;
+}
+.secondHalf img{
+width: 91%;
+border: 2px solid white;
+border-radius: 133px;
+display: block;
+margin: auto;
+}
+
+.text-big{
+    font-size: 37px;
+}
+.text-small{
+font-size: 16px;
+}
+.btn{
+    padding: 5px 19px;
+    margin: 11px 0px;
+    border: 2px solid white;
+    /* font-size: 14px; */
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+.btn:hover{
+    background-color: black;
+}
+
+.btn-sm{
+padding: 3px 11px;
+vertical-align: middle;
+border-radius: 7px;
+font-size: 11px;
+}
+
+.section-content{
+    /* height: 500px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 91%;
+    margin: 63px auto;
+}
+.sectionTag{
+    padding: 7px 0px;
+}
+.section-Left{
+    /* height: 500px; */
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 91%;
+    margin: auto;
+}
+.paras{
+    padding: 0px 47px;
+}
+
+.thumbNail img{
+    width: 251px;
+}
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+.contact{
+    background-color: rgb(194, 226, 255);
+    height: 601px;
+    /* height: 141vh; */
+}
+.text-center{
+    text-align: center;
+    padding-top: 37px;
+    font-size: 33px;
+    font-family: 'Roboto Slab', serif;
+}
+.form{
+    max-width: 70%;
+    margin: auto;
+}
+.form-input{
+    margin-top: 21px;
+    width: 100%;
+    padding: 3px;
+    font-size: 13px;
+    border: 2px solid gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.btn-dark{
+    color: black;
+    border: 2px solid gray;
+    text-align: center;
+}
+.btn-dark:hover{
+    background-color: aliceblue;
+}
+.text-footer{
+    text-align: center;
+    font-size: 11px;
+    padding: 11px 0px;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+.burger{
+    display: none;
+position: absolute;
+cursor: pointer;
+right: 5px;
+top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 3px;
+    margin: 5px 3px;
+}
